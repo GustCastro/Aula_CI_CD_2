@@ -3,7 +3,10 @@
     "production": {},
     "preview": {
       "extends": "production",
-      "distribution": "internal"
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
     }
   }
 }
