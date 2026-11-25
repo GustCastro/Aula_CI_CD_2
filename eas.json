@@ -1,0 +1,9 @@
+{
+  "build": {
+    "production": {},
+    "preview": {
+      "extends": "production",
+      "distribution": "internal"
+    }
+  }
+}
